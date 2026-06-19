@@ -1,39 +1,54 @@
-# Roteiro de Estudo: Portfólio do Zero 🚀
+# Portfólio Acadêmico — Fundamentos da Programação Web 🚀
 
-Seja bem-vindo ao seu ambiente de prática! O objetivo desta pasta (`trabalho_portfolio`) é construirmos o site passo a passo, compreendendo cada linha de código. 
+Este diretório (`trabalho_portfolio`) contém o código-fonte do portfólio pessoal online, desenvolvido como atividade prática para a disciplina **Fundamentos da Programação Web**.
 
-As explicações feitas durante o estudo serão registradas em [anotacoes.md](anotacoes.md), para consulta e revisão depois.
+O projeto é construído do absoluto zero, focando na aplicação limpa e autoral de HTML5, CSS3 (sem frameworks) e JavaScript puro.
 
-## Estado atual
+---
 
-* **Passo 1: Estrutura Semântica (HTML5):** Em andamento. Arquivos limpos para início do desenvolvimento do absoluto zero.
+## 📋 Checklist de Conformidade Acadêmica
 
-O próximo passo é escrever o esqueleto estrutural de `index.html`.
+Antes de enviar o trabalho no AVA, certifique-se de validar todos os itens abaixo para garantir a nota máxima:
 
-Abaixo está o roteiro de aprendizagem simples e autoral que guiará nossa jornada:
+| Item de Avaliação | Requisito da Atividade | Status |
+| :--- | :--- | :---: |
+| **Acessibilidade & Organização** | Código fonte bem documentado com comentários didáticos e relevantes. | `[ ]` |
+| **Nomes de Arquivos** | Folha de estilo nomeada exatamente como `css/estilo.css` e script como `js/script.js`. | `[ ]` |
+| **Navegação** | Menu visível em todas as seções, utilizando navegação por âncoras (`#`). | `[ ]` |
+| **Seção: Sobre Mim** | Conteúdo próprio e real com apresentação pessoal e hobbies. | `[ ]` |
+| **Seção: Formação** | Cursos, idiomas e formação educacional mais recente. | `[ ]` |
+| **Seção: Portfólio** | Links para projetos e trabalhos desenvolvidos pelo estudante. | `[ ]` |
+| **Seção: Contato** | Formulário funcional com campos de Nome, E-mail e Mensagem. | `[ ]` |
+| **JS: Validação** | Validação que impede envio de campos vazios e verifica formato de e-mail (`usuario@dominio.com`). | `[ ]` |
+| **JS: Simulação de Envio** | Limpeza de campos e modal/alerta visual confirmando o envio. | `[ ]` |
+| **Responsividade** | Layout adaptável para computadores, tablets e smartphones. | `[ ]` |
+| **Deploy** | Publicado no GitHub Pages com URL pública funcional e nome do aluno. | `[ ]` |
+| **Código Fonte** | Versionado em um repositório público no GitHub. | `[ ]` |
 
 ---
 
 ## 📅 Roteiro de Aprendizagem
 
-### 🧱 Passo 1: A Estrutura Semântica (HTML5)
-*   **O que aprender:** O que é a árvore do DOM, tags semânticas obrigatórias (`<header>`, `<main>`, `<section>`, `<article>`, `<footer>`), acessibilidade de teclado e a estrutura básica de formulários e inputs.
-*   **O que faremos:** Escrever o arquivo `index.html` completo apenas com a marcação estrutural e textos reais (apresentação, formação, projetos e formulário de contato), sem nenhum estilo CSS.
+Para construir o portfólio, seguiremos estes passos estruturados:
 
-### 🎨 Passo 2: O Sistema de Estilos e Layout Responsivo (CSS3)
-*   **O que aprender:** O que são seletores de tags, classes, IDs, reset visual, modelo de caixas (`box-sizing`), variáveis CSS no `:root` e técnicas de layout simples (Flexbox para alinhamentos e CSS Grid para grades de cards).
-*   **O que faremos:** Criar e vincular o arquivo `css/style.css`. Faremos o reset de margens, definiremos fontes personalizadas, estilizaremos as seções e faremos o layout se empilhar de forma responsiva em celulares.
+### 🧱 Passo 1: Estrutura Semântica (HTML5)
+*   **O que aprender:** Árvore do DOM, tags estruturais obrigatórias (`<header>`, `<main>`, `<section>`, `<footer>`), acessibilidade de teclado e formulários.
+*   **O que faremos:** Escrever o arquivo `index.html` com a estrutura semântica básica do site e todo o conteúdo de texto real das seções.
 
-### 🌓 Passo 3: Transições e Tema Escuro (CSS Premium Simples)
-*   **O que aprender:** Media queries para detecção de largura de tela e o uso de seletores de atributo (como `[data-theme="dark"]`) para trocar variáveis de cores dinamicamente.
-*   **O que faremos:** Definir a paleta de cores escuras e programar os estilos do botão de alternância de tema no cabeçalho.
+### 🎨 Passo 2: Sistema de Estilos e Layout (CSS3)
+*   **O que aprender:** Reset CSS, variáveis no `:root` para cores e fontes, seletores, Flexbox (alinhamento de seções e navegação) e CSS Grid (cards de portfólio).
+*   **O que faremos:** Criar e vincular `css/estilo.css` para estilizar o site e torná-lo responsivo em telas menores.
 
-### ⚡ Passo 4: Adicionando Comportamento (JavaScript Puro)
-*   **O que aprender:** Seleção de elementos do DOM (`document.getElementById`), eventos de escuta (`addEventListener`), condicionais e validação de formatos (como regex básico para e-mails).
-*   **O que faremos:** Criar o arquivo `js/script.js` para programar o menu responsivo, o alternador de temas com persistência em `localStorage` e a validação completa do formulário de contato antes do envio.
+### 🌓 Passo 3: Temas e Efeitos Visuais
+*   **O que aprender:** Uso de seletores de atributo no CSS (como `[data-theme="dark"]`) e transições suaves de cor.
+*   **O que faremos:** Estilizar as cores para o tema escuro sob o seletor correspondente e posicionar o botão alternador.
+
+### ⚡ Passo 4: Comportamento Dinâmico (JavaScript)
+*   **O que aprender:** Seleção de elementos no DOM (`document.getElementById`), escuta de eventos (`addEventListener`) e lógica de validação com expressões regulares.
+*   **O que faremos:** Criar `js/script.js` para programar o menu responsivo, a alternância do tema salvando no `localStorage` e a validação do formulário com modal de sucesso.
 
 ---
 
-## 🛠️ Como vamos fazer?
+## 📝 Diário de Bordo e Notas de Aula
 
-Você está no comando! Escreva o código no seu editor e eu irei guiar você explicando o porquê de cada tag, propriedade CSS ou instrução JavaScript. Vamos fazer um portfólio autoral, limpo e muito fácil de defender na avaliação!
+As explicações, anotações de sintaxe e conceitos teóricos serão documentados diretamente em [anotacoes.md](anotacoes.md) à medida que desenvolvemos cada etapa, servindo como material de estudo e fixação do aprendizado.

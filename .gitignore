@@ -6,3 +6,8 @@ Thumbs.db
 
 # Logs
 *.log
+
+# Anotacoes e referências pessoais/academicas
+anotacoes.md
+referencias/
+

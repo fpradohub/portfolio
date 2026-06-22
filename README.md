@@ -1,54 +1,65 @@
-# Portfólio Acadêmico — Fundamentos da Programação Web 🚀
+# Portfólio Profissional — Fernando Prado 🚀
 
-Este diretório (`trabalho_portfolio`) contém o código-fonte do portfólio pessoal online, desenvolvido como atividade prática para a disciplina **Fundamentos da Programação Web**.
+Bem-vindo ao meu portfólio pessoal e acadêmico! Este projeto foi desenvolvido do absoluto zero com o objetivo de apresentar minha trajetória, minhas qualificações e os principais projetos práticos que desenvolvo nas áreas de desenvolvimento web, automação e sistemas embarcados.
 
-O projeto é construído do absoluto zero, focando na aplicação limpa e autoral de HTML5, CSS3 (sem frameworks) e JavaScript puro.
-
----
-
-## 📋 Checklist de Conformidade Acadêmica
-
-Antes de enviar o trabalho no AVA, certifique-se de validar todos os itens abaixo para garantir a nota máxima:
-
-| Item de Avaliação | Requisito da Atividade | Status |
-| :--- | :--- | :---: |
-| **Acessibilidade & Organização** | Código fonte bem documentado com comentários didáticos e relevantes. | `[ ]` |
-| **Nomes de Arquivos** | Folha de estilo nomeada exatamente como `css/estilo.css` e script como `js/script.js`. | `[ ]` |
-| **Navegação** | Menu visível em todas as seções, utilizando navegação por âncoras (`#`). | `[ ]` |
-| **Seção: Sobre Mim** | Conteúdo próprio e real com apresentação pessoal e hobbies. | `[ ]` |
-| **Seção: Formação** | Cursos, idiomas e formação educacional mais recente. | `[ ]` |
-| **Seção: Portfólio** | Links para projetos e trabalhos desenvolvidos pelo estudante. | `[ ]` |
-| **Seção: Contato** | Formulário funcional com campos de Nome, E-mail e Mensagem. | `[ ]` |
-| **JS: Validação** | Validação que impede envio de campos vazios e verifica formato de e-mail (`usuario@dominio.com`). | `[ ]` |
-| **JS: Simulação de Envio** | Limpeza de campos e modal/alerta visual confirmando o envio. | `[ ]` |
-| **Responsividade** | Layout adaptável para computadores, tablets e smartphones. | `[ ]` |
-| **Deploy** | Publicado no GitHub Pages com URL pública funcional e nome do aluno. | `[ ]` |
-| **Código Fonte** | Versionado em um repositório público no GitHub. | `[ ]` |
+## 🧑‍💻 Sobre Mim
+Sou desenvolvedor e estudante de **Análise e Desenvolvimento de Sistemas** pelo Centro Universitário Internacional UNINTER. Trabalho na criação de soluções reais e integradas, desde chatbots inteligentes e automação de processos (com n8n) até projetos de hardware embarcado e Internet das Coisas (IoT) utilizando Arduino.
 
 ---
 
-## 📅 Roteiro de Aprendizagem
+## 🛠️ Tecnologias Utilizadas
 
-Para construir o portfólio, seguiremos estes passos estruturados:
+Para garantir um código limpo, semântico e de alto desempenho, o portfólio foi construído utilizando apenas tecnologias web fundamentais:
 
-### 🧱 Passo 1: Estrutura Semântica (HTML5)
-*   **O que aprender:** Árvore do DOM, tags estruturais obrigatórias (`<header>`, `<main>`, `<section>`, `<footer>`), acessibilidade de teclado e formulários.
-*   **O que faremos:** Escrever o arquivo `index.html` com a estrutura semântica básica do site e todo o conteúdo de texto real das seções.
-
-### 🎨 Passo 2: Sistema de Estilos e Layout (CSS3)
-*   **O que aprender:** Reset CSS, variáveis no `:root` para cores e fontes, seletores, Flexbox (alinhamento de seções e navegação) e CSS Grid (cards de portfólio).
-*   **O que faremos:** Criar e vincular `css/estilo.css` para estilizar o site e torná-lo responsivo em telas menores.
-
-### 🌓 Passo 3: Temas e Efeitos Visuais
-*   **O que aprender:** Uso de seletores de atributo no CSS (como `[data-theme="dark"]`) e transições suaves de cor.
-*   **O que faremos:** Estilizar as cores para o tema escuro sob o seletor correspondente e posicionar o botão alternador.
-
-### ⚡ Passo 4: Comportamento Dinâmico (JavaScript)
-*   **O que aprender:** Seleção de elementos no DOM (`document.getElementById`), escuta de eventos (`addEventListener`) e lógica de validação com expressões regulares.
-*   **O que faremos:** Criar `js/script.js` para programar o menu responsivo, a alternância do tema salvando no `localStorage` e a validação do formulário com modal de sucesso.
+*   **HTML5 Semântico:** Estruturação correta das seções utilizando tags estruturais apropriadas (`<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<footer>`) visando SEO e acessibilidade.
+*   **CSS3 Customizado:** Estilização responsiva sem o uso de frameworks, empregando técnicas modernas como **Flexbox** e **CSS Grid**, além de variáveis CSS para controle dinâmico de cores do tema.
+*   **JavaScript (Vanilla JS):** Lógica nativa de interação para controle do menu, comportamento de validação e persistência do tema de cores.
 
 ---
 
-## 📝 Diário de Bordo e Notas de Aula
+## ✨ Principais Funcionalidades
 
-As explicações, anotações de sintaxe e conceitos teóricos serão documentados diretamente em [anotacoes.md](anotacoes.md) à medida que desenvolvemos cada etapa, servindo como material de estudo e fixação do aprendizado.
+1.  **🌓 Alternador de Temas (Dark/Light Mode):** Interface dinâmica que permite alternar entre o tema claro e o escuro de forma suave, com persistência de preferência (as configurações do tema são salvas diretamente no navegador).
+2.  **📱 Design Totalmente Responsivo:** Layout projetado e otimizado para dispositivos móveis, tablets e computadores, utilizando técnicas de *Media Queries* para garantir uma experiência visual fluida em qualquer tamanho de tela.
+3.  **🛡️ Validação Inteligente de Formulário:** Validação no lado do cliente que impede campos em branco e verifica o formato de e-mail através de Expressões Regulares (Regex), proporcionando feedback instantâneo ao usuário.
+4.  **🔗 Links Diretos e Navegação Suave:** Navegação por âncoras inteligentes com ajuste de margem superior para evitar sobreposição pelo menu fixo superior (*sticky navigation*).
+
+---
+
+## 📂 Estrutura de Diretórios
+
+O projeto segue uma estrutura organizada e padronizada para subida no GitHub e hospedagem no GitHub Pages:
+
+```
+trabalho_portfolio/
+├── css/
+│   └── estilo.css      # Folha de estilo customizada
+├── js/
+│   └── script.js       # Lógica em JavaScript puro (validação e temas)
+├── index.html          # Arquivo principal do site (HTML5 Semântico)
+├── .gitignore          # Arquivos e diretórios ignorados no repositório
+└── README.md           # Documentação do projeto
+```
+
+---
+
+## 🚀 Como Executar o Projeto Localmente
+
+1. Clone este repositório para a sua máquina local:
+   ```bash
+   git clone https://github.com/fpradohub/nome-do-repositorio.git
+   ```
+2. Navegue até a pasta do projeto:
+   ```bash
+   cd nome-do-repositorio
+   ```
+3. Abra o arquivo `index.html` em qualquer navegador web de sua preferência.
+
+---
+
+## 🌐 Publicação (Deploy)
+
+Este projeto está pronto para ser publicado em ambiente de produção utilizando o **GitHub Pages**:
+1. Ative a funcionalidade de GitHub Pages nas configurações do seu repositório no GitHub.
+2. Defina a ramificação principal (`main` ou `master`) como fonte de publicação.
+3. Acesse a URL gerada para visualizar o portfólio online.

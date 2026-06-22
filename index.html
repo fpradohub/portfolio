@@ -1,1 +1,170 @@
-<!-- Estrutura do Portfólio -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fernando Prado | Portfólio</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+<body class="dark-theme">
+    <header>
+        <div class="header-logo">
+            <h1>Fernando Prado</h1>
+            <p>Desenvolvedor Web</p>
+        </div>
+
+        <!--Menu do site-->
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre mim</a></li>
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#contato">Contato</a></li>
+
+                <!--botão de alternar tema claro/escuro-->
+                <li>
+                    <button id="btn-tema">☀️ Modo Claro</button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!--Seção sobre mim-->
+        <section id="sobre">
+            <h2>Sobre</h2>
+            <p>Sou desenvolvedor e estudante no CST em Análise e Desenvolvimento de Sistemas pela UNINTER. Construo
+                soluções reais: bots Telegram inteligentes, pipelines de automação com n8n, infraestrutura cloud
+                (Oracle, Cloudflare), integrações com APIs de IA, e projetos embarcados com Arduino. Meu método é
+                direto — aprendo fazendo, testando em produção e resolvendo problemas reais. Tenho experiência prática
+                com
+                MariaDB, Docker, Node.js, arquitetura cloud, automação de processos e sistemas embarcados.</p>
+        </section>
+
+        <!--Seção formação-->
+        <section id="formacao">
+            <h2>Formação</h2>
+
+            <ul>
+                <li>
+                    <strong>Curso Superior de Tecnologia em Análise e Desenvolvimento de Sistemas</strong>
+                    <br>Centro Universitário Internacional UNINTER — Em andamento
+                    <p>
+                        Formação voltada ao desenvolvimento de software, banco de dados, engenharia de requisitos,
+                        desenvolvimento web, segurança da informação e arquitetura de sistemas.
+                    </p>
+                </li>
+
+                <li>
+                    <strong>Pós-Graduação em Business Intelligence e Analytics</strong>
+                    <br>Concluído
+                    <p>
+                        Capacitação em análise de dados, indicadores de desempenho, tomada de decisão baseada em dados
+                        e ferramentas de Business Intelligence.
+                    </p>
+                </li>
+
+                <li>
+                    <strong>Tecnólogo em Processos Químicos</strong>
+                    <br>Concluído
+                    <p>
+                        Formação em processos industriais, controle de qualidade, análise laboratorial e gestão de
+                        processos.
+                    </p>
+                </li>
+            </ul>
+        </section>
+
+        <!--Seção portfólio-->
+        <section id="portfolio">
+            <h2>Portfólio</h2>
+            <div class="portfolio-grid">
+
+                <article class="projeto-card">
+                    <h3>Chatbot</h3>
+                    <p>
+                        Plataforma de atendimento baseada em Inteligência Artificial integrada ao Telegram.
+                        Implementação completa utilizando Oracle VPS, Cloudflare Tunnel, MariaDB, n8n e APIs de IA.
+                        Desenvolvimento de automações, gerenciamento de usuários, autenticação, webhooks e modelos de
+                        assinatura.
+                    </p>
+                </article>
+
+                <article class="projeto-card">
+                    <h3>Bot de Doações (Projeto Extensionista)</h3>
+                    <p>
+                        Sistema de automação para organizações sem fins lucrativos utilizando Telegram e Google Sheets.
+                        Desenvolvimento de workflows para gerenciamento de campanhas, notificações automáticas e
+                        acompanhamento
+                        de doações, com validação acadêmica no projeto extensionista da graduação.
+                    </p>
+                </article>
+
+                <article class="projeto-card">
+                    <h3>Robô Otto DIY com Display OLED</h3>
+                    <p>
+                        Desenvolvimento de um robô bípede interativo com chassi em corte a laser, sensor ultrassônico, buzzer e display OLED Nano para animação das expressões oculares, com controle de movimentos e coreografias programados no Arduino.
+                    </p>
+                    <a href="https://github.com/fpradohub/otto-diy-oled.git" target="_blank" rel="noopener noreferrer">Ver Repositório</a>
+                </article>
+
+                <article class="projeto-card">
+                    <h3>Desenvolvimento de impressora a laser</h3>
+                    <p>
+                        Desenvolvimento de projetos onde foi montado uma impressora laser utilizando motores de sucata,
+                        fazendo toda configuração e montagem do hardware e posterior configuração do software.
+                    </p>
+                </article>
+
+            </div>
+        </section>
+
+
+        <!--Seção contato-->
+        <section id="contato">
+            <h2>Contato</h2>
+            <!-- 1. Abrimos a caixa do formulário -->
+            <form id="form-contato">
+
+                <!-- 2. Grupo do campo Nome -->
+                <div class="form-group">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" placeholder="Seu nome completo" required>
+                </div>
+
+                <!-- 3. Grupo do campo E-mail -->
+                <div class="form-group">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" placeholder="seuemail@dominio.com" required>
+                </div>
+
+                <!-- 4. Grupo do campo Mensagem -->
+                <div class="form-group">
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="4" placeholder="Digite sua mensagem..."
+                        required></textarea>
+                </div>
+
+                <!-- 5. Botão de Enviar -->
+                <button type="submit">Enviar Mensagem</button>
+
+            </form>
+
+            <p>
+                <a href="https://www.linkedin.com/in/fernando-s-prado-a74a968" target="_blank"
+                    rel="noopener noreferrer">LinkedIn</a>
+                <a href="https://github.com/fpradohub" target="_blank" rel="noopener noreferrer">GitHub</a>
+            </p>
+        </section>
+
+
+    </main>
+    <footer>
+        <p>&copy; 2026 Fernando Prado | Desenvolvedor Web. Todos os direitos reservados.</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

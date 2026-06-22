@@ -47,19 +47,11 @@ trabalho_portfolio/
 
 1. Clone este repositório para a sua máquina local:
    ```bash
-   git clone https://github.com/fpradohub/nome-do-repositorio.git
+   git clone https://github.com/fpradohub/portfolio.git
    ```
 2. Navegue até a pasta do projeto:
    ```bash
-   cd nome-do-repositorio
+   cd portfolio
    ```
 3. Abra o arquivo `index.html` em qualquer navegador web de sua preferência.
 
----
-
-## 🌐 Publicação (Deploy)
-
-Este projeto está pronto para ser publicado em ambiente de produção utilizando o **GitHub Pages**:
-1. Ative a funcionalidade de GitHub Pages nas configurações do seu repositório no GitHub.
-2. Defina a ramificação principal (`main` ou `master`) como fonte de publicação.
-3. Acesse a URL gerada para visualizar o portfólio online.

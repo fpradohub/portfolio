@@ -145,6 +145,11 @@ section h2 {
     padding-bottom: 0.5rem;
 }
 
+/*Deixar o texto do sobrejustificado*/
+#sobre p {
+    text-align: justify;
+}
+
 /* Seção Portfólio (CSS Grid) */
 .portfolio-grid {
     display: grid;
@@ -161,6 +166,8 @@ section h2 {
     border-radius: 6px;
     border: 1px solid var(--cor-borda);
     transition: transform 0.2s ease, box-shadow 0.2s ease;
+    display: flex;
+    flex-direction: column;
 }
 
 /* Efeito Hover Premium (Micro-interação) */
@@ -184,7 +191,8 @@ section h2 {
 
 .projeto-card a {
     display: inline-block;
-    margin-top: 1rem;
+    margin-top: auto;
+    align-self: flex-start;
     text-decoration: none;
     color: var(--cor-primaria);
     font-weight: 600;
@@ -198,6 +206,21 @@ section h2 {
 .projeto-card a:hover {
     background-color: var(--cor-primaria);
     color: #ffffff;
+}
+
+/*Estiliza o botão "em breve" do portfólio*/
+.projeto-card .link-em-breve {
+    display: inline-block;
+    margin-top: auto;
+    align-self: flex-start;
+    color: #888888;
+    font-weight: 600;
+    font-size: 0.9rem;
+    border: 1px dashed #888888;
+    padding: 0.4rem 0.8rem;
+    border-radius: 4px;
+    cursor: not-allowed;
+    user-select: none;
 }
 
 /* Seção Formação Acadêmica */

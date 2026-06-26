@@ -6,7 +6,7 @@
     /* Garante que padding e border não aumentem o tamanho total do elemento */
 }
 
-/* Variáveis do Tema (tema claro por padrão) */
+/* Variáveis do Tema (tema escuro por padrão) */
 :root {
     --fonte-principal: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Noto Color Emoji';
     --cor-fundo: #f4f6f9;
